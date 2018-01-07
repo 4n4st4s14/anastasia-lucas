@@ -1,0 +1,17 @@
+
+  [
+   {
+     "id": 1,
+     "desktop_image":"https://www.dafont.com/forum/attach/orig/4/0/400537.png",
+     "mobile_image": "https://www.dafont.com/forum/attach/orig/4/0/400537.png",
+     "title": "JamQuiz",
+     "date": "2017",
+     "github_url": "www.github.com",
+     "project_url": "www.github.com",
+     "tagline": "Quiz your friends on your favorite jams!",
+     "background": "A Game",
+     "role": "back end, api",
+     "tech_stack": ["Spotify Api","Node.js"]
+   }
+
+ ]

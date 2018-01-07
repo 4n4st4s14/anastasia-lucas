@@ -3,19 +3,19 @@ import './Navpills.css';
 
 const Navpills = props =>
 <nav>
-   <div class="nav-wrapper">
-     <a href="#" class="center brand-logo">Logo</a>
-     <ul id="nav-mobile" class="left hide-on-med-and-down">
+   <div className="nav-wrapper">
+     <a href="#" className="center brand-logo">Logo</a>
+     <ul id="nav-mobile" className="left hide-on-med-and-down">
        <li onClick={() => props.handlePageChange("Contact")}>
-       <a>Contact</a></li>
+       <a className="link link-one">Contact</a></li>
      </ul>
 
-     <ul id="nav-mobile" class="right hide-on-med-and-down">
+     <ul id="nav-mobile" className="right hide-on-med-and-down">
 
        <li onClick={() => props.handlePageChange("Developer")}>
-       <a>Developer</a></li>
+       <a className="link link-one">Developer</a></li>
        <li onClick={() => props.handlePageChange("Designer")}>
-       <a>Designer</a></li>
+       <a className="link link-one">Designer</a></li>
      </ul>
    </div>
  </nav>

@@ -1,7 +1,15 @@
 import React from "react";
 import './Developer.css';
+import Projects from './Projects';
+import projects from './projects.json';
 
-const Developer = () =>
+class Developer extends React.Component {
+ state={
+   projects
+ };
+
+  render() {
+    return (
 <div className='container'>
 
    <div id="wrap">
@@ -72,7 +80,21 @@ const Developer = () =>
    </svg>
  </div>
 
+ {this.state.projects.map(projects => (
 
- </div>;
+  <Projects
+    key={projects.id}
+    tagline={projects.tagline}
+    title={projects.title}
+    background={projects.background}
+    role={projects.role}
+    />
+))}
+
+
+ </div>
+);
+}
+}
 
 export default Developer;
