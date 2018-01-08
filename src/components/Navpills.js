@@ -14,8 +14,8 @@ const Navpills = props =>
 
        <li onClick={() => props.handlePageChange("Developer")}>
        <a className="link link-one">Developer</a></li>
-       <li onClick={() => props.handlePageChange("Designer")}>
-       <a className="link link-one">Designer</a></li>
+       <li onClick={() => props.handlePageChange("About")}>
+       <a className="link link-one">About</a></li>
      </ul>
    </div>
  </nav>

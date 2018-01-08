@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navpills from "./Navpills";
 import Developer from "./pages/Developer";
-import Designer from "./pages/Designer";
+import About from "./pages/About";
 import Contact from "./pages/Contact";
 
 class PortfolioContainer extends Component {
@@ -15,8 +15,8 @@ class PortfolioContainer extends Component {
 
   renderPage(){
 
-  if(this.state.currentPage == "Designer"){
-      return <Designer />
+  if(this.state.currentPage == "About"){
+      return <About />
     }else if(this.state.currentPage == "Contact"){
       return <Contact />
     } else if(this.state.currentPage == "Developer"){
