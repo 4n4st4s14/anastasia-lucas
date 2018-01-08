@@ -2,8 +2,67 @@
   [
    {
      "id": 1,
+     "desktop_image":"https://imagejournal.org/wp-content/uploads/bb-plugin/cache/23466317216_b99485ba14_o-panorama.jpg",
+     "title": "JamQuiz",
+     "date": "2017",
+     "github_url": "www.github.com",
+     "project_url": "www.github.com",
+     "tagline": "Quiz your friends on your favorite jams!",
+     "background": "A Game",
+     "role": "back end, api",
+     "tech_stack": ["Spotify Api, Node.js"]
+   },
+   {
+     "id": 2,
      "desktop_image":"https://www.dafont.com/forum/attach/orig/4/0/400537.png",
-     "mobile_image": "https://www.dafont.com/forum/attach/orig/4/0/400537.png",
+     "title": "Getting Fishy",
+     "date": "2017",
+     "github_url": "https://github.com/4n4st4s14/getting-fishy",
+     "project_url": "https://4n4st4s14.github.io/getting-fishy/",
+     "tagline": "Multi-user fish store that tracks orders and inventory",
+     "background": "A Game",
+     "role": "Front End",
+     "tech_stack": ["React"]
+   },
+   {
+     "id": 3,
+     "desktop_image":"https://www.dafont.com/forum/attach/orig/4/0/400537.png",
+     "title": "JamQuiz",
+     "date": "2017",
+     "github_url": "www.github.com",
+     "project_url": "www.github.com",
+     "tagline": "Quiz your friends on your favorite jams!",
+     "background": "A Game",
+     "role": "back end, api",
+     "tech_stack": ["Spotify Api","Node.js"]
+   },
+   {
+     "id": 4,
+     "desktop_image":"https://www.dafont.com/forum/attach/orig/4/0/400537.png",
+     "title": "JamQuiz",
+     "date": "2017",
+     "github_url": "www.github.com",
+     "project_url": "www.github.com",
+     "tagline": "Quiz your friends on your favorite jams!",
+     "background": "A Game",
+     "role": "back end, api",
+     "tech_stack": ["Spotify Api","Node.js"]
+   },
+   {
+     "id": 5,
+     "desktop_image":"https://www.dafont.com/forum/attach/orig/4/0/400537.png",
+     "title": "JamQuiz",
+     "date": "2017",
+     "github_url": "www.github.com",
+     "project_url": "www.github.com",
+     "tagline": "Quiz your friends on your favorite jams!",
+     "background": "A Game",
+     "role": "back end, api",
+     "tech_stack": "Spotify Api, Node.js"
+   },
+   {
+     "id": 6,
+     "desktop_image":"https://www.dafont.com/forum/attach/orig/4/0/400537.png",
      "title": "JamQuiz",
      "date": "2017",
      "github_url": "www.github.com",

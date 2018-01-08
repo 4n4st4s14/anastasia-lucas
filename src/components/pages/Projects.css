@@ -1,0 +1,29 @@
+.props-container{
+  height: 100vh;
+  position: relative;
+}
+
+.props-body {
+  height: 70vh;
+  border-radius: 10px;
+/*-webkit-mask-image:-webkit-gradient(linear, right top, left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));*/
+  z-index: -5;
+
+}
+
+.props-intro{
+   padding-top: 10%;
+   padding-left: 5%;
+
+}
+
+.props-details{
+  position: absolute;
+  bottom: 25%;
+  left:5%;
+
+}
+
+.bottom{
+  padding-left:30px;
+}

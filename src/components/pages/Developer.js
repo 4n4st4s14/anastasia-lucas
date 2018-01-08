@@ -84,10 +84,15 @@ class Developer extends React.Component {
 
   <Projects
     key={projects.id}
+    id={projects.id}
+    tech_stack={projects.tech_stack}
+    github_url={projects.github_url}
+    project_url={projects.project_url}
     tagline={projects.tagline}
     title={projects.title}
     background={projects.background}
     role={projects.role}
+    desktop_image={projects.desktop_image}
     />
 ))}
 
