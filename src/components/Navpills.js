@@ -4,7 +4,7 @@ import './Navpills.css';
 const Navpills = props =>
 <nav>
    <div className="nav-wrapper">
-     <a href="#" className="center brand-logo">Logo</a>
+     <a onClick={() => props.handlePageChange("Developer")}className="center brand-logo">____</a>
      <ul id="nav-mobile" className="left hide-on-med-and-down">
        <li onClick={() => props.handlePageChange("Contact")}>
        <a className="link link-one">Contact</a></li>

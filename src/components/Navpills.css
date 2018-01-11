@@ -53,3 +53,12 @@
 .link-one:hover::before {
     width: 100%;
 }
+
+nav .brand-logo.center {
+    left: 50%;
+     color: rgba(0, 0, 0, 0.5);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-image: url(http://icons.iconarchive.com/icons/sonya/swarm/256/Cat-icon.png);
+    background-size: 67px;
+}

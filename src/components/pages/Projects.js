@@ -1,24 +1,39 @@
-import React from "react";
+import React, {Component} from "react";
 import './Projects.css';
+import github from './github.png'
 
+class Projects extends Component{
+constructor(props) {
 
-const Projects  = (props) =>
+  super(props);
 
+}
 
+render(){
+  const divStyle = {
+    color: 'white',
+    backgroundImage: 'url(' + this.props.desktop_image + ')',
+    WebkitTransition: 'all', // note the capital 'W' here
+    msTransition: 'all',
+   // 'ms' is the only lowercase vendor prefix
+  };
+  return(
 <div className="props-container" >
 
-     <div style={{background: "url(" + props.desktop_image + ")"}} className="props-body">
+     <div style={divStyle}  className="props-body">
        <div className="props-intro">
-         <h2 className="title">{props.title}</h2>
-         <h5 className="tagline">{ props.tagline }</h5>
-         <p> {props.background}</p>
+         <h2 className="title">{this.props.title}</h2>
+         <h5 className="tagline">{ this.props.tagline }</h5>
+         <p className="background"> {this.props.background}</p>
        </div>
        <div className="props-details">
-         <span className="bottom">{props.id}</span>  <span className="bottom"> {props.role}</span>   <span className="bottom">{props.tech_stack} </span> <span className="bottom"> {props.github_url}</span>
+         <span className="bottom"><a href={this.props.github_url} ><img src={github} alt="github" className="github"/></a></span><span className="bottom">{this.props.id}</span>  <span className="bottom"> {this.props.role}</span>   <span className="bottom">{this.props.tech_stack} </span>
        </div>
      </div>
-   </div>;
-
+   </div>
+ );
+}
+};
 
 
 export default Projects;

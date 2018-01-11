@@ -6,11 +6,16 @@
 .props-body {
   height: 70vh;
   border-radius: 10px;
--webkit-mask-background-image:-webkit-gradient(linear, right bottom, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
-  z-index: -5;
-
+  z-index: 100;
 }
 
+.background{
+  max-width: 50%;
+}
+.title{
+  z-index: 201;
+
+}
 .props-intro{
    padding-top: 10%;
    padding-left: 5%;
@@ -26,4 +31,10 @@
 
 .bottom{
   padding-left:30px;
+  font-size: 20px;
+}
+
+.github {
+  background: white;
+  max-height: 50px;
 }

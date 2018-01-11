@@ -1,5 +1,4 @@
-
-  [
+[
    {
      "id": 1,
      "desktop_image":"https://imagejournal.org/wp-content/uploads/bb-plugin/cache/23466317216_b99485ba14_o-panorama.jpg",
@@ -14,7 +13,7 @@
    },
    {
      "id": 2,
-     "desktop_image": "https://i.imgur.com/hBGYrK5.png",
+     "desktop_image": "https://i.imgur.com/MTyRHm6.png",
      "title": "Getting Fishy",
      "date": "2017",
      "github_url": "https://github.com/4n4st4s14/getting-fishy",
@@ -26,7 +25,7 @@
    },
    {
      "id": 3,
-     "desktop_image":"https://i.imgur.com/XIk3Rtt.png",
+     "desktop_image":"https://i.imgur.com/gJIyFZO.png",
      "title": "LegWork",
      "date": "2017",
      "github_url": "www.github.com",

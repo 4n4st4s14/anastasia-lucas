@@ -42,7 +42,7 @@ const Contact = () =>
           </div>
           <div className="col-md-12">
             <div className="footer">
-              <p>Copyright &copy; 2017
+              <p>Copyright &copy; 2018
               | Designed with &hearts; by Anastasia Lucas</p>
             </div>
           </div>
