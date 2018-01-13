@@ -1,9 +1,9 @@
 [
    {
      "id": 1,
-     "desktop_image":"https://imagejournal.org/wp-content/uploads/bb-plugin/cache/23466317216_b99485ba14_o-panorama.jpg",
+     "desktop_image":"https://i.imgur.com/irvQR9N.png",
      "title": "Final Project",
-     "date": "2017",
+     "date": "2018",
      "github_url": "www.github.com",
      "project_url": "www.github.com",
      "tagline": "This app breaks down every pixel into a component",
@@ -15,61 +15,61 @@
      "id": 2,
      "desktop_image": "https://i.imgur.com/MTyRHm6.png",
      "title": "Getting Fishy",
-     "date": "2017",
+     "date": "2018",
      "github_url": "https://github.com/4n4st4s14/getting-fishy",
      "project_url": "https://4n4st4s14.github.io/getting-fishy/",
      "tagline": "Multi-user fish store that tracks orders and inventory",
-     "background": "A Game",
+     "background": "Uses React to update and store data in real time",
      "role": "Front End",
-     "tech_stack": ["React"]
+     "tech_stack": ["React, Firebase"]
    },
    {
      "id": 3,
      "desktop_image":"https://i.imgur.com/gJIyFZO.png",
      "title": "LegWork",
      "date": "2017",
-     "github_url": "www.github.com",
-     "project_url": "www.github.com",
+     "github_url": "https://github.com/mmacdonald1/project-3",
+     "project_url": "https://legwork.herokuapp.com/",
      "tagline": "Job Application Tracker",
      "background": "This app stores application and company information, and tracks your progress to help organize your job search.",
-     "role": "back end, D3.js",
-     "tech_stack": ["SQl, Node, Express, D3"]
+     "role": "Back End, D3.js",
+     "tech_stack": ["SQl, Node, Express, D3.js"]
    },
    {
      "id": 4,
-     "desktop_image":"https://www.dafont.com/forum/attach/orig/4/0/400537.png",
+     "desktop_image":"https://i.imgur.com/zhlwSP2.png",
      "title": "NYT Scraper",
-     "date": "2017",
-     "github_url": "www.github.com",
-     "project_url": "www.github.com",
-     "tagline": "Web Scraper",
-     "background": "A Game",
-     "role": "back end, api",
-     "tech_stack": ["Spotify Api","Node.js"]
+     "date": "2018",
+     "github_url": "https://github.com/4n4st4s14/nyt-scraper",
+     "project_url": "https://frozen-sierra-31355.herokuapp.com/",
+     "tagline": "Search and save articles from the New York Time's archives.",
+     "background": "Web Scraper that utilizes React.js and Mongoose to scrape and save articles",
+     "role": "Full Stack",
+     "tech_stack": ["Node.js, MongoDB, Mongoose, React.js"]
    },
    {
      "id": 5,
-     "desktop_image":"https://www.dafont.com/forum/attach/orig/4/0/400537.png",
+     "desktop_image":"https://i.imgur.com/irvQR9N.png",
      "title": "JamQuiz",
      "date": "2017",
-     "github_url": "www.github.com",
-     "project_url": "www.github.com",
+     "github_url": "https://github.com/4n4st4s14/jamquiz",
+     "project_url": "https://protected-spire-46988.herokuapp.com/game",
      "tagline": "Quiz your friends on your favorite jams!",
-     "background": "A Game",
-     "role": "back end, api",
+     "background": "This game utilizies Spotify's 30 second previews. Show off your music knowledge by guessing correctly and earning points.",
+     "role": "Back End, API integration",
      "tech_stack": "Spotify Api, Node.js"
    },
    {
      "id": 6,
-     "desktop_image":"https://www.dafont.com/forum/attach/orig/4/0/400537.png",
+     "desktop_image":"https://i.imgur.com/c2YdWU9.png",
      "title": "Bamazon",
      "date": "2017",
-     "github_url": "www.github.com",
-     "project_url": "www.github.com",
-     "tagline": "Quiz your friends on your favorite jams!",
-     "background": "A Game",
-     "role": "back end, api",
-     "tech_stack": ["Spotify Api","Node.js"]
+     "github_url": "https://github.com/4n4st4s14/bamazon",
+     "project_url": "https://vimeo.com/245858842",
+     "tagline": "Server-side Online Webstore made with SQL",
+     "background": "Access store data as a customer, manager, or supervisor. Make purchases, add inventory, track profits across departments",
+     "role": "Back end",
+     "tech_stack": ["SQL, Node.js"]
    }
 
  ]

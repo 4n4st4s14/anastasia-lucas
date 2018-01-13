@@ -12,8 +12,8 @@ class Developer extends React.Component {
     return (
 <div className='container'>
 
-   <div id="wrap">
-   <svg width="640" height="420"  viewBox="200 0 240 420" xmlns="http://www.w3.org/2000/svg" version="1.1"  >
+   <div id="wrap" >
+   <svg width="630" height="420"  viewBox="200 0 240 420" xmlns="http://www.w3.org/2000/svg" version="1.1"  >
 
      <g transform="translate(0,180)">
        <polygon fill="#fff" points="0,50 10,50 10,40 10,40 10,40 10,40 10,40 10,40 0,40 0,40 0,40 0,40 0,40 0,40 0,50">
@@ -78,6 +78,7 @@ class Developer extends React.Component {
 
 
    </svg>
+  
  </div>
 
  {this.state.projects.map(projects => (
@@ -96,6 +97,12 @@ class Developer extends React.Component {
     />
 ))}
 
+<div className="col-md-12 center">
+  <div className="footer">
+    <p>Copyright &copy; 2018
+    | Designed with &hearts; by Anastasia Lucas</p>
+  </div>
+</div>
 
  </div>
 );

@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import './Projects.css';
 import github from './github.png'
+import ParallaxImage from 'react-image-parallax2';
 
 class Projects extends Component{
 constructor(props) {
@@ -19,7 +20,7 @@ render(){
   };
   return(
 <div className="props-container" >
-
+    <a href={this.props.project_url} target="_blank">
      <div style={divStyle}  className="props-body">
        <div className="props-intro">
          <h2 className="title">{this.props.title}</h2>
@@ -30,6 +31,7 @@ render(){
          <span className="bottom"><a href={this.props.github_url} ><img src={github} alt="github" className="github"/></a></span><span className="bottom">{this.props.id}</span>  <span className="bottom"> {this.props.role}</span>   <span className="bottom">{this.props.tech_stack} </span>
        </div>
      </div>
+</a>
    </div>
  );
 }

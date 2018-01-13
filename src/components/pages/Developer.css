@@ -12,3 +12,10 @@ nav {
 #wrap {
   height: 100vh;
 }
+
+.pic {
+  
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
