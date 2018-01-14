@@ -41,7 +41,7 @@
      "title": "NYT Scraper",
      "date": "2018",
      "github_url": "https://github.com/4n4st4s14/nyt-scraper",
-     "project_url": "https://frozen-sierra-31355.herokuapp.com/",
+     "project_url": "https://frozen-sierra-31355.herokuapp.com/npm ",
      "tagline": "Search and save articles from the New York Time's archives.",
      "background": "Web Scraper that utilizes React.js and Mongoose to scrape and save articles",
      "role": "Full Stack",

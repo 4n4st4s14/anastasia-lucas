@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import './Projects.css';
 import github from './github.png'
-import ParallaxImage from 'react-image-parallax2';
+
 
 class Projects extends Component{
 constructor(props) {

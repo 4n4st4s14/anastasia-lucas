@@ -2,6 +2,7 @@ import React from "react";
 import './Developer.css';
 import Projects from './Projects';
 import projects from './projects.json';
+import About from './About';
 
 class Developer extends React.Component {
  state={
@@ -78,7 +79,7 @@ class Developer extends React.Component {
 
 
    </svg>
-  
+
  </div>
 
  {this.state.projects.map(projects => (
@@ -96,13 +97,8 @@ class Developer extends React.Component {
     desktop_image={projects.desktop_image}
     />
 ))}
+<About />
 
-<div className="col-md-12 center">
-  <div className="footer">
-    <p>Copyright &copy; 2018
-    | Designed with &hearts; by Anastasia Lucas</p>
-  </div>
-</div>
 
  </div>
 );
