@@ -3,6 +3,7 @@ import './Developer.css';
 import Projects from './Projects';
 import projects from './projects.json';
 import About from './About';
+import Footer from './Footer';
 
 class Developer extends React.Component {
  state={
@@ -97,7 +98,7 @@ class Developer extends React.Component {
     desktop_image={projects.desktop_image}
     />
 ))}
-<About />
+<Footer />
 
 
  </div>

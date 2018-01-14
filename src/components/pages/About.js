@@ -7,49 +7,21 @@ import Footer from './Footer.js';
 const About = () =>
 
         <div className="container center">
-          
-          <h2 className="section-title ">Contact Me</h2>
+          <section class = "col-lg-12" id="about">
 
-            <div className="col s12">
-              <div className="row center-xs">
-
-                <div className="col s3">
-                  <i className="medium material-icons">email</i>
-                  <div className="contact-number">
-
-                    ana2.0stasia@gmail.com
-                  </div>
-                </div>
-
-
-
-                <div className="col s3">
-                  <i className="medium material-icons">phone_iphone</i>
-                  <div className="contact-number">
-
-                    +1 571-393-5853
-                  </div>
-                </div>
-
-                <div className="col s3">
-                  <img className ="github" src={github} alt="github" />
-                  <div className="contact-number">
-
-                    <a href="https://github.com/4n4st4s14" target="blank" style={{color:'white'}}>GitHub</a>
+              <div class="row">
+                 <h2>Hello!</h2>
+               <div id="about-container">
+                  <div class="about-p col s12">
+                    <p>I am a fullstack Web developer with experience in audio engineering and marketing. This past year, I have fully immersed myself in Javascript development, gaining experience in building websites with full database backend from design to deployment. I am a quick study on new technologies, and excited to continue learning and building my skillset.
+                    </p>
                   </div>
 
-                </div>
-
-                <div className="col s3">
-                  <img className="linkedin" src={linkedin} alt="linkedin" />
-                  <div className="contact-number">
-                  <a href="https://www.linkedin.com/in/anastasia-lucas-316a6aab/" target="blank" style={{color:'white'}}>LinkedIn</a>
                   </div>
+              </div>
+            </section>
 
-                </div>
-            </div>
-        </div>
-      <Footer />
-  </div>;
+          <Footer />
+        </div>;
 
 export default About;

@@ -9,3 +9,17 @@
   background: white;
   max-height: 50px;
 }
+
+
+#about-container{
+  height: 30vh;
+  padding-left: 20%;
+  padding-right: 20%;
+  display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    align-content: center;
+
+}
