@@ -2,14 +2,14 @@
    {
      "id": 1,
      "desktop_image":"https://i.imgur.com/irvQR9N.png",
-     "title": "Final Project",
+     "title": "Time Bender",
      "date": "2018",
-     "github_url": "www.github.com",
-     "project_url": "www.github.com",
-     "tagline": "This app breaks down every pixel into a component",
-     "background": "Hell",
-     "role": "pixel counting",
-     "tech_stack": ["React, Node, Express, MongoDB"]
+     "github_url": "https://github.com/4n4st4s14/time-bender",
+     "project_url": "https://time-bender.herokuapp.com/",
+     "tagline": "A first of it's kind VR game that will take you on an adventure through time and space",
+     "background": "Uses ReactVR and Socket.io to create a multi-device VR experience",
+     "role": "ReactVR programming, Socket.io integration",
+     "tech_stack": ["ReactVR, Socket.io, Node"]
    },
    {
      "id": 2,
