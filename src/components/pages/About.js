@@ -7,12 +7,12 @@ import Footer from './Footer.js';
 const About = () =>
 
         <div className="container center">
-          <section class = "col-lg-12" id="about">
+          <section className = "col-lg-12" id="about">
 
-              <div class="row">
+              <div className="row">
                  <h2>Hello!</h2>
                <div id="about-container">
-                  <div class="about-p col s12">
+                  <div className="about-p col l12 bio">
                     <p>I am a fullstack Web developer with experience in audio engineering and marketing. This past year, I have fully immersed myself in Javascript development, gaining experience in building websites with full database backend from design to deployment. I am a quick study on new technologies, and excited to continue learning and building my skillset.
                     </p>
                   </div>

@@ -1,12 +1,12 @@
 [
    {
      "id": 1,
-     "desktop_image":"https://i.imgur.com/irvQR9N.png",
+     "desktop_image":"https://i.imgur.com/qR4e2Yf.png",
      "title": "Time Bender",
      "date": "2018",
      "github_url": "https://github.com/4n4st4s14/time-bender",
      "project_url": "https://time-bender.herokuapp.com/",
-     "tagline": "A first of it's kind VR game that will take you on an adventure through time and space",
+     "tagline": "A first of it's kind VR game",
      "background": "Uses ReactVR and Socket.io to create a multi-device VR experience",
      "role": "ReactVR programming, Socket.io integration",
      "tech_stack": ["ReactVR, Socket.io, Node"]
@@ -41,7 +41,7 @@
      "title": "NYT Scraper",
      "date": "2018",
      "github_url": "https://github.com/4n4st4s14/nyt-scraper",
-     "project_url": "https://frozen-sierra-31355.herokuapp.com/npm ",
+     "project_url": "https://frozen-sierra-31355.herokuapp.com/ ",
      "tagline": "Search and save articles from the New York Time's archives.",
      "background": "Web Scraper that utilizes React.js and Mongoose to scrape and save articles",
      "role": "Full Stack",

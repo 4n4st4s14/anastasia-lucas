@@ -80,7 +80,10 @@ class Developer extends React.Component {
 
 
    </svg>
-
+<div className="bio">
+  I am a fullstack Web developer with experience in audio engineering and marketing. This past year, I have fully immersed myself in Javascript development, gaining experience in building websites with full database backend from design to deployment. I am a quick study on new technologies, and excited to continue learning and building my skillset.
+</div>
+<div class="arrowAnim"></div>
  </div>
 
  {this.state.projects.map(projects => (

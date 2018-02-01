@@ -1,6 +1,7 @@
 import React from "react";
 import './Navpills.css';
 
+
 const Navpills = props =>
 <nav>
    <div className="nav-wrapper">
@@ -10,7 +11,7 @@ const Navpills = props =>
        <a className="link link-one">About</a></li>
      </ul>
 
-     <ul id="nav-mobile" className="right hide-on-med-and-down">
+     <ul id="nav-mobile" className="left hide-on-med-and-down">
 
        <li onClick={() => props.handlePageChange("Developer")}>
        <a className="link link-one">Portfolio</a></li>

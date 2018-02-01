@@ -1,5 +1,4 @@
 import React from "react";
-import './Contact.css';
 import github from './github.png';
 import linkedin from './linkedin.png';
 import './Footer.css';
@@ -32,18 +31,18 @@ const Footer = () =>
         </div>
 
         <div className="col s3">
-          <img className ="github" src={github} alt="github" />
+          <a href="https://github.com/4n4st4s14" target="_blank"><img className ="github" src={github} alt="github" /></a>
           <div className="contact-number">
 
-            <a href="https://github.com/4n4st4s14" target="blank" style={{color:'white'}}>GitHub</a>
+            <a href="https://github.com/4n4st4s14" target="_blank" style={{color:'white'}}>GitHub</a>
           </div>
 
         </div>
 
         <div className="col s3">
-          <img className="linkedin" src={linkedin} alt="linkedin" />
+          <a href="https://www.linkedin.com/in/anastasia-lucas-316a6aab/" target="_blank">  <img className="linkedin" src={linkedin} alt="linkedin" /></a>
           <div className="contact-number">
-          <a href="https://www.linkedin.com/in/anastasia-lucas-316a6aab/" target="blank" style={{color:'white'}}>LinkedIn</a>
+          <a href="https://www.linkedin.com/in/anastasia-lucas-316a6aab/" target="_blank" style={{color:'white'}}>LinkedIn</a>
           </div>
 
         </div>

@@ -1,5 +1,13 @@
 .sticky {
- 
+
  bottom:0;
  left:0;
+}
+
+.section-title{
+  padding-bottom: 30px;
+}
+
+.footer{
+  padding-top: 30px;
 }
