@@ -13,7 +13,7 @@
   max-width: 50%;
 }
 .title{
-  z-index: 201;
+  font-family: 'Roboto', sans-serif;
 
 }
 .props-intro{
@@ -37,4 +37,12 @@
 .github {
   background: white;
   max-height: 50px;
+}
+
+.tagline, .background, .bottom{
+  font-family: 'Nunito', sans-serif;
+}
+
+.background{
+  font-size: 18px;
 }

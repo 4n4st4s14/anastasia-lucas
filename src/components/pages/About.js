@@ -12,7 +12,7 @@ const About = () =>
               <div className="row">
                  <h2>Hello!</h2>
                <div id="about-container">
-                  <div className="about-p col l12 bio">
+                  <div className="about-p col s12 bio">
                     <p>I am a fullstack Web developer with experience in audio engineering and marketing. This past year, I have fully immersed myself in Javascript development, gaining experience in building websites with full database backend from design to deployment. I am a quick study on new technologies, and excited to continue learning and building my skillset.
                     </p>
                   </div>

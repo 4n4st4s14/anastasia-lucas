@@ -6,8 +6,15 @@
 
 .section-title{
   padding-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .footer{
   padding-top: 30px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.contact-number{
+  font-family: 'Nunito', sans-serif;
 }
