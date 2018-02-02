@@ -4,6 +4,7 @@ import Projects from './Projects';
 import projects from './projects.json';
 import About from './About';
 import Footer from './Footer';
+import Scrollchor from 'react-scrollchor';
 
 class Developer extends React.Component {
  state={
@@ -12,7 +13,25 @@ class Developer extends React.Component {
 
   render() {
     return (
+
 <div className='container'>
+  <nav>
+     <div className="nav-wrapper">
+       <a className="center brand-logo">____</a>
+       <ul id="nav-mobile" className="left hide-on-med-and-down">
+         <li >
+         <Scrollchor to="#contact" className="link link-one">Contact</Scrollchor></li>
+       </ul>
+
+       <ul id="nav-mobile" className="left hide-on-med-and-down">
+
+         <li >
+          <Scrollchor to="#portfolio" className="link link-one">Portfolio</Scrollchor></li>
+
+       </ul>
+     </div>
+   </nav>
+
 
    <div id="wrap" >
    <svg width="630" height="420"  viewBox="200 0 240 420" xmlns="http://www.w3.org/2000/svg" version="1.1"  >
@@ -85,7 +104,7 @@ class Developer extends React.Component {
 </div>
 <div class="arrowAnim"></div>
  </div>
-
+<div id="portfolio"></div>
  {this.state.projects.map(projects => (
 
   <Projects
@@ -101,9 +120,8 @@ class Developer extends React.Component {
     desktop_image={projects.desktop_image}
     />
 ))}
+<div id="contact"></div>
 <Footer />
-
-
  </div>
 );
 }
